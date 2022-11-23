@@ -1,0 +1,48 @@
+div[class^="testimonial"] {
+  width: 330px;
+  height: 440px;
+  background: #fff;
+  color: rgb(117, 116, 116);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 6px 14px 1px #888;
+  .text {
+    height: 250px;
+    font-size: 22px;
+  }
+  .footer {
+    height: 160px;
+    width: 330px;
+    padding-bottom: 12px;
+    background-color: #686de0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 6px 14px 1px #888;
+  }
+}
+div[class^="testimonial"] .text p {
+  padding: 25px;
+}
+
+div[class^="testimonial"] img {
+  width: 100px;
+  border: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: #fff;
+  margin-left: 110px;
+  position: relative;
+  bottom: 40px;
+}
+
+div[class^="testimonial"] .footer h3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+div[class^="testimonial"] .footer p {
+  text-align: center;
+  color: #c3cfe2;
+}

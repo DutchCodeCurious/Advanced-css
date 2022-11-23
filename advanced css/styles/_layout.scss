@@ -1,0 +1,32 @@
+/*first section layout*/
+.exer1 {
+  display: grid;
+  justify-content: center;
+  margin: 40px;
+}
+/*Second section layout*/
+.cards {
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+}
+/*Smaller screen*/
+@media screen and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(5, 1fr);
+    display: grid;
+  }
+}
+/*Smallest screen*/
+@media screen and(max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(9, 1fr);
+    display: grid;
+    justify-content: center;
+  }
+}
